@@ -1,0 +1,27 @@
+{
+  "name": "statsd-with-stackdriver",
+  "description": "statsd with stackdriver backend",
+  "author": "Mozilla Services",
+  "scripts": {
+    "test": "./node_modules/statsd/run_tests.sh",
+    "start": "node start-server config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla-services/statsd-with-stackdriver"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "statsd" : "0.7.1",
+    "statsd-backend-raw": "git://github.com/mostlygeek/statsd-backend-raw.git",
+    "stackdriver-statsd-backend": "0.1.5"
+  },
+  "devDependencies": {
+    "nodeunit": "0.7.x",
+    "underscore": "1.4.x",
+    "temp": "0.4.x"
+  },
+  "engines": {
+    "node" : ">=0.10"
+  }
+}
