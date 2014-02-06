@@ -4,7 +4,7 @@
   "author": "Mozilla Services",
   "scripts": {
     "test": "./node_modules/statsd/run_tests.sh",
-    "start": "node start-server config.js"
+    "start": "node start-server.js config.js"
   },
   "repository": {
     "type": "git",
