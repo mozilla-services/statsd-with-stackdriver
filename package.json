@@ -19,7 +19,8 @@
   "devDependencies": {
     "nodeunit": "0.7.x",
     "underscore": "1.4.x",
-    "temp": "0.4.x"
+    "temp": "0.4.x",
+    "node-statsd" : "0.0.7"
   },
   "engines": {
     "node" : ">=0.10"
